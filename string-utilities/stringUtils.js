@@ -26,7 +26,7 @@ function reverse(str) {
     if (typeof str !== "string") {
         throw new Error("Please input a string as an argument");
     }
-
+    
     if (str === "") {
         throw new Error("Your input is an empty string");
     }
